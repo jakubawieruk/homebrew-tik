@@ -1,17 +1,17 @@
 class Pomitik < Formula
   desc "A command-line countdown timer with Pomodoro sessions"
   homepage "https://github.com/jakubawieruk/pomitik"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/jakubawieruk/pomitik/releases/download/v0.2.0/pomitik-aarch64-apple-darwin.tar.gz"
-      sha256 "b3a0acb3aa4ebd0032d03349b1fd18ebe5deba8a90eb4825e1055f181e802f55"
+      url "https://github.com/jakubawieruk/pomitik/releases/download/v0.3.0/pomitik-aarch64-apple-darwin.tar.gz"
+      sha256 "72e37b5007b94f7e783170d1c85afbbe5d06f5d2214b76c20c48ef3c752f47bd"
     end
 
     on_intel do
-      url "https://github.com/jakubawieruk/pomitik/releases/download/v0.2.0/pomitik-x86_64-apple-darwin.tar.gz"
-      sha256 "2113b9a5151ee150eca6410046074307e29b70af28b368a4a98010411faf15e6"
+      url "https://github.com/jakubawieruk/pomitik/releases/download/v0.3.0/pomitik-x86_64-apple-darwin.tar.gz"
+      sha256 "30d5d899ee955d0161db49c249e22bc01770ac151dda6bb6d8fd9989d60a98a3"
     end
   end
 
